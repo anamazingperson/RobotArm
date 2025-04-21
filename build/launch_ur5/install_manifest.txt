@@ -1,0 +1,16 @@
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/launch/ur5_bringup.launch.py
+/home/li/Work/RobotArm/install/launch_ur5/share/ament_index/resource_index/package_run_dependencies/launch_ur5
+/home/li/Work/RobotArm/install/launch_ur5/share/ament_index/resource_index/parent_prefix_path/launch_ur5
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/environment/ament_prefix_path.sh
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/environment/ament_prefix_path.dsv
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/environment/path.sh
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/environment/path.dsv
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/local_setup.bash
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/local_setup.sh
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/local_setup.zsh
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/local_setup.dsv
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/package.dsv
+/home/li/Work/RobotArm/install/launch_ur5/share/ament_index/resource_index/packages/launch_ur5
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/cmake/launch_ur5Config.cmake
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/cmake/launch_ur5Config-version.cmake
+/home/li/Work/RobotArm/install/launch_ur5/share/launch_ur5/package.xml

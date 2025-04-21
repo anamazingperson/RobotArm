@@ -1,0 +1,6 @@
+Invoking command in '/home/li/Work/RobotArm/build/launch_ur5': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/li/Work/RobotArm/src/launch_ur5 -DCMAKE_INSTALL_PREFIX=/home/li/Work/RobotArm/install/launch_ur5
+Invoked command in '/home/li/Work/RobotArm/build/launch_ur5' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/li/Work/RobotArm/src/launch_ur5 -DCMAKE_INSTALL_PREFIX=/home/li/Work/RobotArm/install/launch_ur5
+Invoking command in '/home/li/Work/RobotArm/build/launch_ur5': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/RobotArm/build/launch_ur5 -- -j16 -l16
+Invoked command in '/home/li/Work/RobotArm/build/launch_ur5' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/li/Work/RobotArm/build/launch_ur5 -- -j16 -l16
+Invoking command in '/home/li/Work/RobotArm/build/launch_ur5': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/RobotArm/build/launch_ur5
+Invoked command in '/home/li/Work/RobotArm/build/launch_ur5' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/li/Work/RobotArm/build/launch_ur5
