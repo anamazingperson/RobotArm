@@ -1,9 +1,0 @@
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/uninstall.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/ur5_robot_uninstall.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/test.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/edit_cache.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/rebuild_cache.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/list_install_components.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/install.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/install/local.dir
-/home/li/Work/RobotArm/build/ur5_robot/CMakeFiles/install/strip.dir
