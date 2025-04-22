@@ -1,0 +1,16 @@
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot//urdf/ur5.urdf
+/home/li/Work/RobotArm/install/ur5_robot/share/ament_index/resource_index/package_run_dependencies/ur5_robot
+/home/li/Work/RobotArm/install/ur5_robot/share/ament_index/resource_index/parent_prefix_path/ur5_robot
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/environment/ament_prefix_path.sh
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/environment/ament_prefix_path.dsv
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/environment/path.sh
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/environment/path.dsv
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/local_setup.bash
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/local_setup.sh
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/local_setup.zsh
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/local_setup.dsv
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/package.dsv
+/home/li/Work/RobotArm/install/ur5_robot/share/ament_index/resource_index/packages/ur5_robot
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/cmake/ur5_robotConfig.cmake
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/cmake/ur5_robotConfig-version.cmake
+/home/li/Work/RobotArm/install/ur5_robot/share/ur5_robot/package.xml
