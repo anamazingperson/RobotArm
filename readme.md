@@ -1,18 +1,15 @@
 # 环境介绍
 ros2,humble版本，python==3.10
-现在已有moveit，ros humble版本，现在需要从包的创建，到完成pick-place任务。基于moveit,机械臂是panda机械臂，分步骤详细说明。代码以及对应的bash命令。
+现在已有moveit，ros humble版本，现在需要从包的创建，到完成pick-place任务。基于moveit,机械臂是panda机械臂，分步骤详细说明。代码以及对应的bash命令。抓取任务基于pybullet
 # 目标
 基于 MoveIt! 的机械臂运动规划
 验收标准（流程和大致项目跑通+可以改用自己规划的算法）
 1.	机械臂加载，可以代码控制任意关节移动，ur5机械臂(实现)
 2.	实现内置函数的运动规划，搭建障碍物，实现轨迹规划
-3.	使用机械臂实现抓取和摆放任务，可以是开源项目，但是效果一定要有抓取任务，整个流程用导图显示出来。
-硬性标准
-1. Git项目一个，机械臂抓取
-2. 详细的readme指导书
-3. 思维导图绘制，针对项目，理解moveit里面的关键节点以及关键的接口设置
-4. 抓取任务里面必须包含一般机械臂执行的部分，即感知一定要有，绘制思维导图
-5. Readme里面得有一个规划图，初步的规划（文字）//结合代码/节点的规划图
+3.	使用机械臂实现抓取和摆放任务，可以是开源项目，但是效果一定要有抓取任务，整个流程用导图显示出来。(参考开源项目,[基于pybullet的抓取任务](https://github.com/leesweqq/ur5_grasp_object_pybullet))
+## MoveIt抓取任务模块分解
+MoveIt抓取流程：设置目标位姿 → 规划路径 → 碰撞检查 → 执行运动 → 夹爪闭合 → 状态验证
+PyBullet抓取流程：生成目标物体 → 计算IK解 → 驱动关节 → 物理仿真步进 → 接触检测 → 力控制保持
 ## ToDo
 1.moveit python接口，可以实现机械臂末端移动到指定位置，夹爪闭合和打开，然后移动到指定位置，
 2.位置的获取采用opencv，输入图像，返回需要的目标点的坐标，物体和盒子的位置
@@ -86,11 +83,7 @@ ros2 launch ur5_moveit_config demo.launch.py
 ```
 ## 2.实现ur5机器人完成抓取任务
 采用现有的moveit2的任务建立包，实现里面的demo,具体的步骤参考[Moveit2官网](https://moveit.picknik.ai/main/doc/tutorials/pick_and_place_with_moveit_task_constructor/pick_and_place_with_moveit_task_constructor.html)
-# 实现步骤
-1.首先分析替换模型需要替换哪些东西，分析一下原来的panda机械臂和什么有关
-2.github开源的可以得到ur5机械臂，替换调panda，实现加载任务
-3.分析tutorial里面的抓取代码，pick_place函数，里面有感知吗？跟换为：https://moveit.picknik.ai/main/doc/tutorials/pick_and_place_with_moveit_task_constructor/pick_and_place_with_moveit_task_constructor.html#getting-started。。实现抓取的教程
-4.机器人替换，实现ur5抓取任务
+
 
 # 实现过程中的收获
 大部分功能，甚至是机器人都是现成的，调用他们实现自己的功能是关键。
